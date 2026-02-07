@@ -27,6 +27,9 @@ disable_splash=1
 #hdmi_group=1
 #hdmi_mode=1
 
+# we're disabling hdmi here, comment this out if using on an HDMI display - lainstation team
+hdmi_blanking=1
+
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
 # DMT (computer monitor) modes
 #hdmi_drive=2
@@ -40,7 +43,6 @@ disable_splash=1
 
 # Composite NTSC (480p)
 sdtv_mode=0
-
 
 #uncomment to overclock the arm. 700 MHz is the default.
 #arm_freq=800
