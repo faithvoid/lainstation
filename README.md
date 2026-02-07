@@ -15,6 +15,12 @@ Currently, this can run files from disks, but not original game disks (yet). To 
 
 ``` /dev/sr0 /mnt/disk auto ro,user,auto,nofail 0 0 ```
 
+## Further improving boot time
+Services that can be disabled for optimization:
+- nmbd / smbd (for file sharing, if not needed, cuts down ~11s) - ``` sudo systemctl disable nmbd smbd ```
+- Bluetooth (if not needed for controllers/speakers, cuts down ~5s) - ``` sudo systemctl disable bluetooth hciuart ```
+- triggerhappy (if not using GPIO for inputs, ~5s) - ``` sudo systemctl disable triggerhappy ```
+
 ## TODO
 - Make & design a case capable of holding a laptop disc drive
 - More!
