@@ -21,11 +21,12 @@ Services that can be disabled for optimization:
 - Bluetooth (if not needed for controllers/speakers, cuts down ~5s) - ``` sudo systemctl disable bluetooth hciuart ```
 - triggerhappy (if not using GPIO for inputs, ~5s) - ``` sudo systemctl disable triggerhappy ```
 
+For additional improvements, make sure you also have "Wait for network at boot" disabled in raspi-config, and "Only Parse from Gamelists" enabled in EmulationStation (ONLY if you've already done a full scan on your current library, or you won't see any (new) games!)
+
 ## TODO
 - Make & design a case capable of holding a laptop disc drive
 - More!
 
 ## Credits
-PoocianDoesStuff - PS Prototype startup video
-
-Sunbird - RetroPie PS-style startup video
+- PoocianDoesStuff - PS Prototype startup video
+- Sunbird - RetroPie PS-style startup video
