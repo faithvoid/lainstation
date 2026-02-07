@@ -1,0 +1,1 @@
+console=serial0,115200 root=PARTUUID=16b3fe58-02 rootfstype=ext4 fsck.repair=yes rootwait consoleblank=0 plymouth.enable=0 quiet loglevel=0 logo.nologo vt.global_cursor_default=0 console=tty3
