@@ -12,6 +12,7 @@ PSX-style RetroPie console, designed around the Raspberry Pi 3 A+ and a 1.3" SH1
 
 ## Disk Support (experimental)
 Currently, this can run files from disks, but not original game disks (yet). To try it, add the following to /etc/fstab, then insert a disk containing your selected files (ie; a disk with a .CHD file), and select "Launch Disk" from RetroPie menu.
+
 ``` /dev/sr0 /mnt/disk auto ro,user,auto,nofail 0 0 ```
 
 ## TODO
