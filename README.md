@@ -18,3 +18,7 @@ Currently, this can run files from disks, but not original game disks (yet). To 
 ## TODO
 - Make & design a case capable of holding a laptop disc drive
 - More!
+
+## Credits
+PoocianDoesStuff - PS Prototype startup video
+Sunbird - RetroPie PS-style startup video
