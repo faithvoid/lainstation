@@ -10,6 +10,7 @@ PSX-style RetroPie console, designed around the Raspberry Pi 3 A+, with a 1.3" S
 - Adds a "Kodi" option on the ES home menu, as well as the 480p Confluence skin for the best possible 480p experience.
 - Adds a "Disk" option in the home menu that allows you to mount and launch games directly from a burnt disk!
 - Sets CPU governor to "performance" mode on game startup and back to default on game exit.
+- Fixes "Enter" button on MX3 air mice/keyboard combos for better Kodi support
 
 ## Parts Needed:
 - Raspberry Pi (3 A+ used here, any composite-capable Pi should be fine)
