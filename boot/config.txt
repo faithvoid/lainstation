@@ -29,6 +29,7 @@ disable_splash=1
 
 # we're disabling hdmi here, comment this out if using on an HDMI display - lainstation team
 hdmi_blanking=1
+hdmi_ignore_hotplug=1
 
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
 # DMT (computer monitor) modes
