@@ -9,6 +9,7 @@ PSX-style RetroPie console, designed around the Raspberry Pi 3 A+, with a 1.3" S
 - Hides terminal text that may show up in the background to make the system feel more "official"
 - Adds a "Kodi" option on the ES home menu, as well as the 480p Confluence skin for the best possible 480p experience.
 - Adds a "Disk" option in the home menu that allows you to mount and launch games directly from a burnt disk!
+- Sets CPU governor to "performance" mode on game startup and back to default on game exit.
 
 ## Companion Scripts
 - sakuraMarquee - Displays game / media / system data on a 1.3" SH1106 display, as well as allowing the user to properly shut down via KEY3, reboot via KEY2, and adjust display brightness via KEY1.
