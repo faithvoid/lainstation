@@ -11,6 +11,11 @@ PSX-style RetroPie console, designed around the Raspberry Pi 3 A+, with a 1.3" S
 - Adds a "Disk" option in the home menu that allows you to mount and launch games directly from a burnt disk!
 - Sets CPU governor to "performance" mode on game startup and back to default on game exit.
 
+## Parts Needed:
+- Raspberry Pi (3 A+ used here, any composite-capable Pi should be fine)
+- SH1106 OLED display (3 button + 1 joystick type)
+- (Powered) USB hub (optional for most setups, required for proper disk drive support)
+
 ## Companion Scripts
 - sakuraMarquee - Displays game / media / system data on a 1.3" SH1106 display, as well as allowing the user to properly shut down via KEY3, reboot via KEY2, and adjust display brightness via KEY1.
 - sakuraPresence - Discord Rich Presence support (requires sakuraPresence server script!)
